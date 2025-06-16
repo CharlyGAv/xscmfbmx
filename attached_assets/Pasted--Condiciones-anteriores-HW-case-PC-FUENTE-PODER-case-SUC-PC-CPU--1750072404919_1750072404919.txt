@@ -1,0 +1,215 @@
+  // Condiciones anteriores (HW)
+        case "PC-FUENTE PODER":
+        case "SUC-PC-CPU":
+        case "ACC-TECLADO":
+        case "ACC-MOUSE":
+        case "ACC-MONITOR":
+        case "ACC-HUB USB":
+        case "ACC-DOCKING STATION":
+          configurationItem = "BRANCH SERVICES MX-PC HARDWARE-PROD-TSO";
+          break;
+        case "DEP-PC-CPU":
+          configurationItem = "PHYSICAL DESKTOP SERVICES-LATAM-PROD-TSO";
+          break;
+        case "LAPTOP-DISPLAY":
+        case "LAPTOP-TOUCHPAD":
+        case "LAPTOP-TECLADO":
+        case "LAPTOP-CARGADOR":
+        case "LAPTOP-CPU":
+          configurationItem = "PHYSICAL DESKTOP SERVICES-LATAM-PROD-TSO";
+          break;
+        case "IMPRESORA LASER":
+          configurationItem = "PRINT MANAGEMENT-LATAM-PROD-1";
+          break;
+        case "ACC-IMPRESORA VENTANILLA":
+          configurationItem =
+            "BRANCH SERVICES MX-IMPRESORA VENTANILLA-PROD-TSO";
+          break;
+        case "ACC-WEBCAM":
+          configurationItem = "BRANCH SERVICES MX-CAMARA WEB-PROD-TSO";
+          break;
+        case "TEL-RADIO":
+        case "TEL-TELEFONO":
+        case "TEL-DIADEMA":
+          configurationItem = "BRANCH SERVICES MX-TELEFONO-PROD-TSO";
+          break;
+        case "DEP-TEL-TELEFONIA":
+          configurationItem =
+            "VOICE ENTERPRISE TELEPHONY SERVICES-LATAM-MX-PROD-TSO";
+          break;
+        case "DEP-AUDIO Y VIDEO-VIDEO CONFERENCIAS":
+          configurationItem = "ZOOM CLOUD VIDEO MEETINGS-NAM-PROD-1";
+          break;
+        case "ACC-AUTENTICADOR DE DOCUMENTOS":
+          configurationItem =
+            "BRANCH SERVICES MX-AUTENTICADOR DOCUMENTOS-PROD-TSO";
+          break;
+        case "APPLE-IPAD KARDEX":
+          configurationItem = "BRANCH SERVICES MX-PC TABLETA-PROD-TSO";
+          break;
+        case "ACC-SCANNER EPSON":
+          configurationItem = "BRANCH SERVICES MX-SCANNER-PROD-TSO";
+          break;
+        case "ACC-LECTOR CODIGO DE BARRAS":
+          configurationItem =
+            "BRANCH SERVICES MX-LECTOR CODIGO DE BARRAS-PROD-TSO";
+          break;
+        case "ACC-LECTORA DE CHEQUES":
+          configurationItem = "BRANCH SERVICES MX-LECTOR CHEQUES-PROD-TSO";
+          break;
+        case "ACC-LECTOR DE HUELLAS":
+          configurationItem = "BRANCH SERVICES MX-LECTOR HUELLA-PROD-TSO";
+          break;
+        case "ACC-PAD DE FIRMAS":
+          configurationItem = "BRANCH SERVICES MX-PAD FIRMA DIGITAL-PROD-TSO";
+          break;
+        case "ACC-PINPAD":
+          configurationItem = "BRANCH SERVICES MX-PIN PAD-PROD-TSO";
+          break;
+        case "QMS-IMPRESORA":
+        case "QMS-MONITOR TOUCH":
+        case "QMS-PANTALLA":
+          configurationItem = "BRANCH SERVICES MX-QMS_INFRAESTRUCTURA-PROD-TSO";
+          break;
+        case "QMS-VIDEOMIXER":
+          configurationItem = "BRANCH SERVICES MX-AUDIO Y VIDEO-PROD-TSO";
+          break;
+        case "APPLE - DESKTOP/LAPTOP":
+          configurationItem = "PHYSICAL DESKTOP SERVICES-APPLE MAC-PROD-TSO";
+          break;
+
+        // Nuevas condiciones para SW
+        case "SOFTWARE WINDOWS":
+          configurationItem = "PHYSICAL DESKTOP SERVICES-LATAM-PROD-TSO";
+          break;
+        case "ACCOUNT OPENING/PAQUETE DIGITAL":
+          configurationItem =
+            "DIGITAL ACQUISITION MX TRANSACTION MANAGER-LATAM-MX-PROD-1";
+          break;
+        case "TEOS":
+          configurationItem =
+            "WEB TECHNOLOGY IN BRANCH OFFICES-LATAM-MX-PROD-1";
+          break;
+        case "PLATINO / URANIO":
+          configurationItem =
+            "INTEGRAL SUPPORT MARKET PLATFORM-LATAM-MX-PROD-1";
+          break;
+        case "ADM WIN / WIN6530 / COMDRIVE":
+          configurationItem = "ADM TERMINAL EMULATOR-LATAM-MX-PROD-1";
+          break;
+        case "FIREFLY":
+          configurationItem = "GC FIREFLY MEXICO-LATAM-MX-PROD-1";
+          break;
+        case "ECLIPSE / ONE ECLIPSE / CRONOS":
+          configurationItem = "ECLIPSE - MEXICO-LATAM-MX-PROD-1";
+          break;
+        case "ONDEMAND":
+          configurationItem = "IMAGE CORPORATE SOLUTION-LATAM-MX-PROD-1";
+          break;
+        case "JAVA":
+          configurationItem = "JAVA FINANCIAL PLATFORM LATAM-LATAM-CO-PROD-1";
+          break;
+        case "GOOGLE CHROME":
+          configurationItem = "DESKTOP APPLICATION SERVICES-CHROME-PROD-TSO";
+          break;
+        case "MICROSOFT EDGE":
+          configurationItem =
+            "DESKTOP APPLICATION SERVICES-MICROSOFT EDGE-PROD-TSO";
+          break;
+        case "MICROSOFT OFFICE 365 (EXCEL, WORD, POWERPOINT, ACCESS)":
+          configurationItem = "OFFICE PRO PLUS-NAM-PROD-1";
+          break;
+        case "MICROSOFT OFFICE DIFERENTE A 365":
+          configurationItem =
+            "DESKTOP APPLICATION SERVICES-MICROSOFT OFFICE 2016 PRODUCTS-PROD-TSO";
+          break;
+        case "CISCO ANYCONNECT / VPN":
+          configurationItem =
+            "REMOTE ACCESS - CITI VPN WITH CISCO ANYCONNECT-LATAM-PROD-1";
+          break;
+        case "MICROSOFT TEAMS DESKTOP APP":
+          configurationItem = "MICROSOFT TEAMS-NAM-PROD-1";
+          break;
+        case "CISCO JABBER":
+          configurationItem =
+            "VOICE ENTERPRISE TELEPHONY SERVICES-VOICE - CISCO JABBER FOR WINDOWS-PROD-TSO";
+          break;
+        case "COGNOS":
+          configurationItem = "EDW PRODUCTION MEX - COGNOS-LATAM-MX-PROD-1";
+          break;
+        case "AVAYA":
+          configurationItem = "AVAYA AGENT FOR DESKTOP-NAM-PROD-1A";
+          break;
+        case "VISOR DE CAMARAS":
+          configurationItem =
+            "CSIS - SECURITY - MEXICO - BRANCH WATCHLIST ALERTING SYSTEM-LATAM-PROD-1";
+          break;
+        case "SQL":
+          configurationItem = "SQL GUARD GLOBAL DEPLOYMENT-LATAM-PROD-1";
+          break;
+        case "TERADATA":
+          configurationItem = "TERADATA PLATFORM-NAM-US-PROD-1";
+          break;
+        case "SCCM":
+          configurationItem = "SCCM ECM END USER SERVICES-NAM-PROD-SCCM";
+          break;
+        case "DNS":
+          configurationItem = "DNS SERVER-NAM-PROD-1";
+          break;
+        case "DICTANET":
+          configurationItem =
+            "DICTANET - LEGAL CLIENT DOCUMENTATION REVIEW MX-LATAM-MX-PROD-1";
+          break;
+        case "VALIJA DIGITAL":
+          configurationItem =
+            "SCANNING APP FROM BRANCHES-NAM-US-UAT-SCANING APP FROM BRA";
+          break;
+        case "TAP TO PRINT, SERVIDOR DE IMPRESIÓN":
+          configurationItem = "PRINT MANAGEMENT-LATAM-PROD-1";
+          break;
+        case "ONE DRIVE":
+          configurationItem = "DESKTOP APPLICATION SERVICES-ONE DRIVE-PROD-TSO";
+          break;
+        case "NETMATRIX":
+          configurationItem =
+            "CSIS - SECURITY - MEXICO - NETMATRIX PHYSICAL SECURITY INFORMATION MANAGEMENT-LATAM-MX-PROD-1";
+          break;
+        case "QMS APLICATIVO":
+          configurationItem =
+            "QUEUE MANAGEMENT SYSTEM - MEXICO-LATAM-MX-PROD-1";
+          break;
+        case "MICROSOFT OUTLOOK 2016":
+          configurationItem = "EMAIL SERVICES-OFFICE OUTLOOK - 2016-PROD-TSO";
+          break;
+        case "SOFTWARE PC MAC":
+          configurationItem = "PHYSICAL DESKTOP SERVICES-APPLE MAC-PROD-TSO";
+          break;
+
+        // Nuevas condiciones para RED
+        case "ENERGIA ELECTRICA":
+        case "MEDIO TELECOMM":
+          configurationItem =
+            "NETWORK SERVICES - PERIMETER-LATAM-PROD-EXTRANET";
+          break;
+        case "ROUTER":
+        case "LANSWITCH":
+        case "CONECTOR (PATCH CORD)":
+          configurationItem = "NETWORK SERVICES - PERIPHERAL-LATAM-PROD-I";
+          break;
+        case "ACCESS POINT (WAP)":
+        case "MODEM WIFI":
+          configurationItem = "CISCO UNIFIED WIRELESS NETWORK-NAM-PROD-1";
+          break;
+
+        // Nuevas condiciones para USUARIO
+        case "CMP REQUERIMIENTO":
+          configurationItem = "RESOLVEIT REQUESTS-NAM-PROD-CTO";
+          break;
+        case "PROBLEMAS CON PASSWORDS":
+          configurationItem = "ONERESET-NAM-PROD-CTO";
+          break;
+        case "INFRAESTRUCTURA DEL EDIFICIO (INMUEBLES)":
+          configurationItem =
+            "REALM CRS GSO -Building Request (BRF)-NAM-PROD-TSO";
+          break;
+
